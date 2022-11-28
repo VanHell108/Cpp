@@ -39,7 +39,7 @@ int main()
           break;
      }
 
-     std::cout << "\n******** CALCULATOR ********";
+     std::cout << "\n****************************";
 
      return 0;
 }
