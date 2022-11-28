@@ -11,19 +11,19 @@ int main()
      switch (randNum)
      {
      case 1:
-          std::cout << "You win a sticker";
+          std::cout << "You win a sticker!";
           break;
      case 2:
-          std::cout << "You win a T-shirt";
+          std::cout << "You win a T-shirt!";
           break;
      case 3:
-          std::cout << "You win a free lunch";
+          std::cout << "You win a free lunch!";
           break;
      case 4:
-          std::cout << "You win a gift card";
+          std::cout << "You win a gift card!";
           break;
      case 5:
-          std::cout << "You win a concert tickets";
+          std::cout << "You win a concert tickets!";
           break;
      default:
           break;
