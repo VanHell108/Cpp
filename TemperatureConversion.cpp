@@ -5,6 +5,7 @@ int main(){
      double temp;
      char unit;
 
+     std::cout << "******** TEMPERATURE CONVERSION ********\n";
      std::cout << "F = Fahrenheit\n";
      std::cout << "C = Celsius\n";
      std::cout << "What unit would you like to convert to: ";
@@ -22,6 +23,8 @@ int main(){
      }else{
           std::cout << "Please enter right symbols and numbers";
      }
+
+     std::cout << "\n****************************************";
 
      return 0;
 }
