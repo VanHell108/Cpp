@@ -17,8 +17,12 @@ int main()
 
      do
      {
-          std::cout << "Guess a number from 1 to 20: ";
+          std::cout << "\nGuess a number from 1 to 20: ";
           std::cin >> guess;
+
+          std::cin.clear();
+          fflush(stdin);
+
           tries++;
 
           if (guess > num)
